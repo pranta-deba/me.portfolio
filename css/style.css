@@ -1,0 +1,503 @@
+/* font - Raleway*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+/*  all */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF;
+}
+
+.separator {
+    text-align: center;
+    margin: 70px 0 40px 0;
+}
+
+/* header */
+header {
+    background: url('../assets/bg.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 786px 877px;
+}
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 200px;
+}
+
+.logo {
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.primary-btn {
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    width: 147px;
+    height: 46px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+/* header */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+
+.banner h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.banner h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.banner p {
+    color: #909090;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.names {
+    line-height: 0%;
+}
+
+.banner>.banner-content>.social {
+    display: flex;
+}
+
+.banner>.banner-content .social img {
+    padding: 10px;
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 36px;
+    height: 30px;
+    margin-right: 30px;
+}
+
+.banner>img {
+    width: 400px;
+    flex-shrink: 0;
+}
+
+/* main container berries */
+.main-container .berries {
+    background: linear-gradient(90deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
+    padding: 40px 102px;
+}
+
+.main-container .berries h3 {
+    margin: 0;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5.561px;
+}
+
+.main-container .berries p {
+    color: #FFF;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.802px;
+}
+
+.main-container .berries button {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
+    cursor: pointer;
+    border: none;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 5px 10px;
+}
+
+
+/* main-container about */
+.about {
+    padding: 90px;
+}
+
+.about .top {
+    text-align: center;
+}
+
+.section-title {
+    border: 8px solid #000;
+    background: rgba(255, 255, 255, 0.00);
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38.37px;
+    letter-spacing: 10.661px;
+    display: inline-block;
+    padding: 12px 25px;
+    margin-bottom: 80px;
+}
+
+.about>p {
+    color: #050505;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.about button {
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    background: none;
+    cursor: pointer;
+    border: none;
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    padding: 5px 10px;
+}
+
+.about .work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about .work .work-box {
+    width: 450px;
+    padding: 20px;
+}
+
+.about .work .work-box h4 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 8.078px;
+}
+
+.about .work .design {
+    background: url('../assets/design.svg');
+    background-repeat: no-repeat;
+}
+
+.about .work .development {
+    background: url('../assets/development.svg');
+    background-repeat: no-repeat;
+}
+
+.about .work .maintenance {
+    background: url('../assets/maintenanace.svg');
+    background-repeat: no-repeat;
+}
+
+.about .work .work-box p {
+    color: #000;
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* skills */
+.skills .title {
+    text-align: center;
+}
+
+.skills .skills-content {
+    padding: 0 350px;
+}
+
+.skills .skills-content .skills-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skills .skills-content .skills-work p {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3.249px;
+}
+
+.skills .skills-content .skills-work div {
+    text-align: center;
+    margin: 20px;
+}
+
+.skills .skills-content .skills-work img {
+    width: 60px;
+    height: 60px;
+    margin: 0 40px;
+}
+
+.skills .skills-content h4 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+
+/* portfolio */
+.portfolio {
+    background: #1A1A1A;
+}
+
+.portfolio .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 100%);
+    background-image: url('../assets/portfoliobg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio .portfolio-work ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 15px 32px 32px;
+}
+
+.portfolio .portfolio-work ul li {
+    border-bottom: 1px solid #7C7C7C;
+    padding: 5px 40px;
+}
+
+.portfolio .portfolio-work ul li:first-child {
+    border-bottom: 3px solid #FFFBFB;
+}
+
+.portfolio .portfolio-work ul li a {
+    text-decoration: none;
+    color: #7C7C7C;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio .portfolio-work ul li a.active {
+    color: #FFFBFB;
+}
+
+.all-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.all-projects img {
+    width: 400px;
+}
+
+.all-projects div {
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.all-projects p {
+    color: #FFF;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.95px;
+}
+
+.all-projects h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 127.9%;
+    letter-spacing: 5.134px;
+}
+
+.all-projects button {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    background: none;
+    cursor: pointer;
+    border: none;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 5px 15px;
+    margin: 5px;
+
+}
+
+.all-projects .project-items1 {
+    background-image: url('../assets/Project1.png');
+    background-size: cover;
+
+}
+
+.all-projects .project-items2 {
+    background-image: url('../assets/Project2.png');
+    background-size: cover;
+
+}
+
+.all-projects .project-items3 {
+    background-image: url('../assets/Project3.png');
+    background-size: cover;
+
+}
+
+.all-projects .project-items4 {
+    background-image: url('../assets/Project4.png');
+    background-size: cover;
+
+}
+
+.all-projects .project-items5 {
+    background-image: url('../assets/Project1.png');
+    background-size: cover;
+
+}
+
+.all-projects .project-items6 {
+    background-image: url('../assets/Project2.png');
+    background-size: cover;
+
+}
+
+.all-more {
+    text-align: center;
+    padding: 20px;
+}
+
+.all-more p {
+    color: #FFFBFB;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* contact */
+.contact .title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact .contact-mgs {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.contact form input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    display: block;
+    color: #8B8B8B;
+    width: 250px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.56px;
+    padding: 10px 20px;
+    border: none;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.contact form input[type="submit"] {
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    background: none;
+    cursor: pointer;
+    border: none;
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    padding: 5px 10px;
+}
+
+/* footer */
+footer {
+    background: #1A1A1A;
+    padding: 40px;
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+}
+
+footer .back-to-top p {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2.781px;
+}
+footer .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+footer .links img{
+    width: 30px;
+    height: 30px;
+}
+footer .copyright p{
+    margin: 50px 50px 0 50px;
+}
